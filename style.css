@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    height: 100%;
+    width: 200px;
+    background: black;
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    z-index: 1000;
+}
+section{
+    min-height: 100vh;
+    padding: 1rem;
+    width: 100%;
+}
+.user img{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.user h1{
+    color: aliceblue;
+    font-size: 11px;
+    text-align: center;
+
+}
+.user P{
+    color: aliceblue;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+.menu ul li{
+    color: blanchedalmond;
+    margin-top: 40px;
+    margin-left: 10px;
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+.menu ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.5s ease-in;
+}
+.menu ul li a:hover{
+    color:blue;
+}
+.home{
+    background: blue;
+    margin-left: 200px;
+    position: absolute;
+    flex-flow: column;
+    display: flex;
+    overflow: hidden;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+
+}
+.profile h2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 200px;
+}
+.profile p{
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
